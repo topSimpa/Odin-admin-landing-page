@@ -1,6 +1,8 @@
 # Admin Dashboard
-a template Admin Dashboard for an arbitrary service. A project to exercise layout skills<br>
+A template Admin Dashboard for an arbitrary service. A project to exercise layout skills<br>
 This project is part of the requirement to complete [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard).  the desired outcome should look like this<br>
+<br>
+<br>
 ![desired outcome](./images/dashboard-project.png)
 
 ## Features
