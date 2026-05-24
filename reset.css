@@ -46,9 +46,16 @@ h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
 
+/* remove bullet point */
 li {
     list-style: none;
 }
+
+/* remove the underline text */
+a {
+   text-decoration: none;
+}
+
 /*
   10. Create a root stacking context
 */

@@ -25,7 +25,7 @@ body {
     align-content: start;
 }
 
-.sidebar ul li{
+.sidebar ul li a{
     padding-left: 6px;
     display: grid;
     gap: 8px;
