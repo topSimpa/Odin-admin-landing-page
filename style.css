@@ -202,21 +202,20 @@ h3, h4 {
 }
 
 .status {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    align-content: flex-start;
+    gap: 16px;
+}
+
+.trending .content-box {
     gap: 16px;
 }
 
 .user {
     color: black
 }
-
-svg {
-    fill: white;
-    width: 24px;
-}
-
 
 @font-face {
     font-family: 'Roboto';
