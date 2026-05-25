@@ -43,10 +43,15 @@ body {
     grid-column-start: 2;
     background-color: white;
     display: grid;
-    grid-template-columns: 3fr 2fr; 
     padding: 24px 48px;
     gap: 16px;
     font-weight: bold;
+}
+
+.header-rows {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
 }
 
 .flex {
@@ -55,12 +60,9 @@ body {
     align-items: center
 }
 
-.header .top-right {
-     justify-content: flex-end;
-}
 
 #search {
-    flex: 1;
+    width: 32vw;
     border-radius: 16px;
     background-color: #D1D5DB;
     padding: 4px;
@@ -87,18 +89,6 @@ body {
     width: 32px;
 }
 
-.big-icon {
-    width: 48px;
-}
-
-.bottom-right {
-    padding-left: 48px;
-    display: grid;
-    align-content: end;
-    gap: 32px;
-    grid-template-columns: repeat(3, 1fr);
-}
-
 .bottom-left {
     font-size: 0.8rem;
 }
@@ -112,7 +102,8 @@ body {
 } 
 
 .header button {
-    padding: 8px 0;
+    padding: 8px 16px;
+    width: 8vw;
     background-color: #5c4634;
     color: white;
     border-radius: 20px;
@@ -121,20 +112,25 @@ body {
 
 .main {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
     padding: 32px;
     gap: 24px;
 }
 
+.main-area {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 16px;
+}
+
 .project-area {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .card {
     display: grid;
-    height: 210px;
     grid-template-columns: 8px auto;
     background-color: white;
     border-radius: 8px;
@@ -166,8 +162,7 @@ h3, h4 {
 }
 
 .section-header {
-    grid-column: 1 / -1;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
@@ -179,7 +174,7 @@ h3, h4 {
 
 .other > div {
     display: grid;
-    gap: 24px;
+    gap: 16px;
     grid-template-rows: auto 1fr;
 }
 
