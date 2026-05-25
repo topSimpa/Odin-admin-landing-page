@@ -62,7 +62,7 @@ body {
 
 
 #search {
-    width: 32vw;
+    width: 40vw;
     border-radius: 16px;
     background-color: #D1D5DB;
     padding: 4px;
@@ -113,7 +113,7 @@ body {
 .main {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    padding: 32px;
+    padding: 24px 24px 48px 24px;
     gap: 24px;
 }
 
