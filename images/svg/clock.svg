@@ -1,0 +1,8 @@
+<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="white"
+                    >
+                        <title>clock-time-three</title>
+                        <path d="M12 2C6.4 2 2 6.4 2 12C2 17.4 6.4 22 12 22C17.4 22 22 17.4 22 12S17.4 2 12 2M17 13H11V7H12.4V11.4H17V13Z" />
+                    </svg>
