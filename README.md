@@ -6,7 +6,7 @@ This project is part of the requirement to complete [The Odin Project](https://w
 ![desired outcome](./images/dashboard-project.png)
 
 ## Features
-the completed [project]() have the following features
+the completed [project](https://topsimpa.github.io/Odin-admin-landing-page/) have the following features
 - Header section
 - Sidebar Navigation
 - Action Controls
